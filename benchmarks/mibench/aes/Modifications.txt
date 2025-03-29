@@ -1,0 +1,4 @@
+Modifications:
+Block size set to 16
+Added for(int j = 0; j < 16; j++) loop for printing output
+added brackets () around cases in aes.c line 501, 496 (silence the compiler)

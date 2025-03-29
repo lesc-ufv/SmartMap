@@ -1,0 +1,92 @@
+digraph G {
+add0[opcode=add];
+const1[opcode=const][data=220];
+load2[opcode=load][name=a];
+add3[opcode=add];
+const4[opcode=const][data=1];
+add5[opcode=add];
+const6[opcode=const][data=221];
+load7[opcode=load][name=a];
+add8[opcode=add];
+add9[opcode=add];
+const10[opcode=const][data=220];
+load11[opcode=load][name=b];
+add12[opcode=add];
+const13[opcode=const][data=223];
+load14[opcode=load][name=b];
+add15[opcode=add];
+mul16[opcode=mul];
+const17[opcode=const][data=12];
+mul18[opcode=mul];
+mul19[opcode=mul];
+mul20[opcode=mul];
+add21[opcode=add];
+store22[opcode=store];
+load23[opcode=load][name=b];
+load24[opcode=load][name=b];
+add25[opcode=add];
+const26[opcode=const][data=0];
+add27[opcode=add];
+const28[opcode=const][data=0];
+add29[opcode=add];
+const30[opcode=const][data=0];
+add31[opcode=add];
+const32[opcode=const][data=0];
+add33[opcode=add];
+const34[opcode=const][data=0];
+add35[opcode=add];
+const36[opcode=const][data=0];
+add37[opcode=add];
+const38[opcode=const][data=0];
+add39[opcode=add];
+const40[opcode=const][data=0];
+const41[opcode=const];
+load2->add8[operand=1][size=32]; //a->add
+add3->add0[operand=1][size=32]; //add->gep_add_sgh
+add3->add3[operand=0][size=32]; //add->add
+add3->add5[operand=1][size=32]; //add->gep_add_sgh
+add3->add9[operand=1][size=32]; //add->gep_add_sgh
+add3->add12[operand=1][size=32]; //add->gep_add_sgh
+load7->add8[operand=0][size=32]; //a->add
+add8->mul16[operand=0][size=32]; //add->mul
+load11->add15[operand=1][size=32]; //b->add
+load23->mul18[operand=1][size=32]; //b->mul
+load14->add15[operand=0][size=32]; //b->add
+load24->mul19[operand=1][size=32]; //b->mul
+add15->add25[operand=0][size=32]; //add->mul
+mul16->mul18[operand=0][size=32]; //mul->mul
+mul18->mul19[operand=0][size=32]; //mul->mul
+mul19->mul20[operand=0][size=32]; //mul->mul
+mul20->add21[operand=0][size=32]; //mul->add
+add21->store22[operand=0][size=32]; //add->store
+const41->store22[operand=1][size=32]; //add->store
+add21->add21[operand=1][size=32]; //add->add
+const1->add0[operand=0][size=32]; //base->gep_add_sgh
+add0->load2[operand=0][size=32]; //gep_add_sgh->a
+const4->add3[operand=1][size=32]; //1->add
+const6->add5[operand=0][size=32]; //221->gep_add_sgh
+add5->load7[operand=0][size=32]; //gep_add_sgh->a
+const10->add9[operand=0][size=32]; //base->gep_add_sgh
+add9->load11[operand=0][size=32]; //gep_add_sgh->b
+const13->add12[operand=0][size=32]; //223->gep_add_sgh
+add12->load14[operand=0][size=32]; //gep_add_sgh->b
+const17->mul16[operand=1][size=32]; //12->mul
+add9->add31[operand=0][size=32]; //gep_add_sgh->b
+add12->add35[operand=0][size=32]; //gep_add_sgh->b
+const26->add25[operand=1][size=32];//0->add25
+add25->add27[operand=0][size=32];//0->add25
+const28->add27[operand=1][size=32];//0->add27
+add27->add29[operand=0][size=32];//0->add27
+const30->add29[operand=1][size=32];//0->add29
+add29->mul20[operand=1][size=32]; //add->mul
+const32->add31[operand=1][size=32];//0->add31
+add31->add33[operand=0][size=32];//0->add31
+const34->add33[operand=1][size=32];//0->add33
+add33->load23[operand=0][size=32]; //gep_add_sgh->b
+const36->add35[operand=1][size=32];//0->add35
+add35->add37[operand=0][size=32];//0->add35
+const38->add37[operand=1][size=32];//0->add37
+add37->add39[operand=0][size=32];//0->add37
+const40->add39[operand=1][size=32];//0->add39
+add39->load24[operand=0][size=32]; //gep_add_sgh->b
+}

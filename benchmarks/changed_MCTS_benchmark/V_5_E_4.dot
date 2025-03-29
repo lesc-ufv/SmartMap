@@ -1,0 +1,11 @@
+strict digraph  {
+add1 [opcode=add];
+add4 [opcode=add];
+add2 [opcode=add];
+add0 [opcode=add];
+add3 [opcode=add];
+add4 -> add2;
+add2 -> add1;
+add0 -> add4;
+add0 -> add3;
+}

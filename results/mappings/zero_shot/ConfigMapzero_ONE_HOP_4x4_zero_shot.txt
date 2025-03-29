@@ -1,0 +1,672 @@
+-------------------------------------------------- Mapping V_14_E_14.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.19 | Mapping Time: 4.172 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | add5  | t = -1 ]  [2  | R     | t = -1 ]  [3  | add12 | t = -1 ] 
+	[4  | add3  | t = -1 ]  [5  | add6  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | R     | t = -1 ]  [9  | add10 | t = -1 ]  [10 | R     | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add7  | t = -1 ]  [13 | add9  | t = -1 ]  [14 | add13 | t = -1 ]  [15 | add2  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 15)  | [3, 7, 15]        
+	(3, 5)   | [3, 2, 6, 5]      
+	(15, 4)  | [15, 11, 10, 8, 4]
+	(5, 13)  | [5, 13]           
+	(4, 12)  | [4, 12]           
+	(4, 1)   | [4, 0, 1]         
+	(13, 9)  | [13, 9]           
+	(13, 14) | [13, 14]          
+
+MCTS results: Mean visited rate: 63.449% | Mean visited nodes: 58.333 | 2xMean expanded nodes: 1.710 | Mean max tree depth 5.222 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_14_E_14.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_8_E_9.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.18 | Mapping Time: 3.063 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = -1 ]  [1  | R    | t = -1 ]  [2  | R    | t = -1 ]  [3  | add6 | t = -1 ] 
+	[4  | add3 | t = -1 ]  [5  | add7 | t = -1 ]  [6  | R    | t = -1 ]  [7  | R    | t = -1 ] 
+	[8  | add4 | t = -1 ]  [9  | R    | t = -1 ]  [10 | add1 | t = -1 ]  [11 | R    | t = -1 ] 
+	[12 | R    | t = -1 ]  [13 | R    | t = -1 ]  [14 | add2 | t = -1 ]  [15 | add0 | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]  
+	(3, 15)  | [3, 7, 15]    
+	(3, 4)   | [3, 1, 0, 4]  
+	(5, 10)  | [5, 9, 10]    
+	(15, 10) | [15, 11, 10]  
+	(5, 8)   | [5, 13, 12, 8]
+	(4, 8)   | [4, 8]        
+	(10, 14) | [10, 14]      
+
+MCTS results: Mean visited rate: 45.860% | Mean visited nodes: 15.857 | 2xMean expanded nodes: 3.072 | Mean max tree depth 4.429 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_8_E_9.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_16_E_19.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.16 | Mapping Time: 3.877 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | add11 | t = -1 ]  [2  | R     | t = -1 ]  [3  | add6  | t = -1 ] 
+	[4  | add0  | t = -1 ]  [5  | add14 | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add8  | t = -1 ]  [9  | R     | t = -1 ]  [10 | add3  | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | R     | t = -1 ]  [13 | R     | t = -1 ]  [14 | add2  | t = -1 ]  [15 | add1  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]  
+	(3, 15)  | [3, 7, 15]    
+	(5, 1)   | [5, 1]        
+	(4, 1)   | [4, 0, 1]     
+	(5, 10)  | [5, 9, 10]    
+	(15, 10) | [15, 11, 10]  
+	(5, 8)   | [5, 13, 12, 8]
+	(15, 14) | [15, 14]      
+
+MCTS results: Mean visited rate: 46.636% | Mean visited nodes: 41.250 | 2xMean expanded nodes: 2.536 | Mean max tree depth 5.375 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_16_E_19.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_9_E_10.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.21 | Mapping Time: 3.823 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = -1 ]  [1  | add8 | t = -1 ]  [2  | R    | t = -1 ]  [3  | add2 | t = -1 ] 
+	[4  | add1 | t = -1 ]  [5  | add6 | t = -1 ]  [6  | R    | t = -1 ]  [7  | R    | t = -1 ] 
+	[8  | R    | t = -1 ]  [9  | add3 | t = -1 ]  [10 | R    | t = -1 ]  [11 | R    | t = -1 ] 
+	[12 | add4 | t = -1 ]  [13 | add7 | t = -1 ]  [14 | R    | t = -1 ]  [15 | add0 | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]      
+	(3, 15)  | [3, 7, 15]        
+	(5, 4)   | [5, 4]            
+	(15, 4)  | [15, 11, 10, 8, 4]
+	(5, 9)   | [5, 9]            
+	(15, 12) | [15, 14, 12]      
+	(4, 1)   | [4, 0, 1]         
+	(9, 1)   | [9, 1]            
+	(12, 13) | [12, 13]          
+
+MCTS results: Mean visited rate: 54.791% | Mean visited nodes: 49.167 | 2xMean expanded nodes: 2.236 | Mean max tree depth 5.375 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_9_E_10.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_11_E_11.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.1600000000000001 | Mapping Time: 3.990 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add10 | t = -1 ] 
+	[4  | add7  | t = -1 ]  [5  | add4  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add5  | t = -1 ]  [9  | R     | t = -1 ]  [10 | add1  | t = -1 ]  [11 | add8  | t = -1 ] 
+	[12 | R     | t = -1 ]  [13 | R     | t = -1 ]  [14 | add9  | t = -1 ]  [15 | add0  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]  
+	(3, 15)  | [3, 7, 15]    
+	(3, 4)   | [3, 1, 0, 4]  
+	(5, 10)  | [5, 9, 10]    
+	(5, 8)   | [5, 13, 12, 8]
+	(15, 11) | [15, 11]      
+	(10, 14) | [10, 14]      
+
+MCTS results: Mean visited rate: 50.659% | Mean visited nodes: 21.375 | 2xMean expanded nodes: 2.587 | Mean max tree depth 5.000 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_11_E_11.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping doitgen.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.15 | Mapping Time: 4.938 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add0  | t = -1 ] 
+	[4  | add5  | t = -1 ]  [5  | add1  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add13 | t = -1 ]  [9  | add3  | t = -1 ]  [10 | add4  | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add6  | t = -1 ]  [13 | add9  | t = -1 ]  [14 | add8  | t = -1 ]  [15 | add2  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]
+	(3, 15)  | [3, 7, 15]  
+	(5, 8)   | [5, 1, 0, 8]
+	(15, 10) | [15, 11, 10]
+	(4, 12)  | [4, 12]     
+	(8, 9)   | [8, 9]      
+	(10, 14) | [10, 14]    
+	(12, 13) | [12, 13]    
+
+MCTS results: Mean visited rate: 65.593% | Mean visited nodes: 35.800 | 2xMean expanded nodes: 1.868 | Mean max tree depth 5.500 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping doitgen.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_7_E_7.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.1599999964237213 | Mapping Time: 0.327 sec | Num Simulations: 150
+Solution found before finish the MCTS simulations.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = 4  ]  [1  | R    | t = 3  ]  [2  | R    | t = 1  ]  [3  | add0 | t = 0  ] 
+	[4  | add4 | t = 3  ]  [5  | add3 | t = 2  ]  [6  | add5 | t = 2  ]  [7  | R    | t = 1  ] 
+	[8  | add2 | t = 5  ]  [9  | -1   | t = -1 ]  [10 | R    | t = 3  ]  [11 | R    | t = 4  ] 
+	[12 | R    | t = 4  ]  [13 | add1 | t = 5  ]  [14 | -1   | t = -1 ]  [15 | add6 | t = 5  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 6)  | [3, 2, 6]      
+	(3, 5)  | [3, 7, 5]      
+	(6, 4)  | [6, 4]         
+	(5, 4)  | [5, 4]         
+	(6, 15) | [6, 10, 11, 15]
+	(5, 8)  | [5, 1, 0, 8]   
+	(4, 13) | [4, 12, 13]    
+
+MCTS results: Mean visited rate: 19.365% | Mean visited nodes: 61.000 | 2xMean expanded nodes: 5.148 | Mean max tree depth 7.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_7_E_7.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping cholesky_unroll.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.18 | Mapping Time: 4.325 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = -1 ]  [1  | R    | t = -1 ]  [2  | R    | t = -1 ]  [3  | add0 | t = -1 ] 
+	[4  | add3 | t = -1 ]  [5  | add1 | t = -1 ]  [6  | R    | t = -1 ]  [7  | R    | t = -1 ] 
+	[8  | add4 | t = -1 ]  [9  | add8 | t = -1 ]  [10 | add5 | t = -1 ]  [11 | R    | t = -1 ] 
+	[12 | add7 | t = -1 ]  [13 | R    | t = -1 ]  [14 | add6 | t = -1 ]  [15 | add2 | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]
+	(3, 15)  | [3, 7, 15]  
+	(5, 4)   | [5, 4]      
+	(5, 8)   | [5, 1, 0, 8]
+	(15, 10) | [15, 11, 10]
+	(15, 14) | [15, 14]    
+	(4, 12)  | [4, 12]     
+	(8, 12)  | [8, 12]     
+	(10, 9)  | [10, 9]     
+	(14, 9)  | [14, 13, 9] 
+
+MCTS results: Mean visited rate: 50.992% | Mean visited nodes: 30.111 | 2xMean expanded nodes: 2.319 | Mean max tree depth 5.222 | Number of Backtrackings: 4
+
+-------------------------------------------------- End Mapping cholesky_unroll.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_6_E_5.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.11999999918043613 | Mapping Time: 0.094 sec | Num Simulations: 150
+Solution found before finish the MCTS simulations.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | R    | t = 1  ]  [3  | add0 | t = 0  ] 
+	[4  | add5 | t = 3  ]  [5  | add2 | t = 3  ]  [6  | add4 | t = 2  ]  [7  | -1   | t = -1 ] 
+	[8  | R    | t = 4  ]  [9  | R    | t = 4  ]  [10 | add1 | t = 5  ]  [11 | R    | t = 6  ] 
+	[12 | -1   | t = -1 ]  [13 | -1   | t = -1 ]  [14 | -1   | t = -1 ]  [15 | add3 | t = 7  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 6)   | [3, 2, 6]   
+	(6, 5)   | [6, 5]      
+	(6, 4)   | [6, 4]      
+	(4, 10)  | [4, 8, 10]  
+	(5, 10)  | [5, 9, 10]  
+	(10, 15) | [10, 11, 15]
+
+MCTS results: Mean visited rate: 12.360% | Mean visited nodes: 22.000 | 2xMean expanded nodes: 8.045 | Mean max tree depth 6.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_6_E_5.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping symm.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.2 | Mapping Time: 5.708 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add7  | t = -1 ]  [1  | add11 | t = -1 ]  [2  | R     | t = -1 ]  [3  | add0  | t = -1 ] 
+	[4  | add3  | t = -1 ]  [5  | add1  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add4  | t = -1 ]  [9  | add8  | t = -1 ]  [10 | add13 | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add6  | t = -1 ]  [13 | add5  | t = -1 ]  [14 | R     | t = -1 ]  [15 | add2  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]
+	(3, 15)  | [3, 7, 15]  
+	(5, 13)  | [5, 13]     
+	(15, 10) | [15, 11, 10]
+	(4, 8)   | [4, 8]      
+	(13, 9)  | [13, 9]     
+	(10, 12) | [10, 14, 12]
+	(8, 0)   | [8, 0]      
+	(0, 1)   | [0, 1]      
+	(9, 1)   | [9, 1]      
+
+MCTS results: Mean visited rate: 62.757% | Mean visited nodes: 57.200 | 2xMean expanded nodes: 2.041 | Mean max tree depth 6.091 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping symm.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping atax.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.16 | Mapping Time: 4.291 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add0  | t = -1 ] 
+	[4  | add3  | t = -1 ]  [5  | add1  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add5  | t = -1 ]  [9  | add8  | t = -1 ]  [10 | add2  | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | R     | t = -1 ]  [13 | add4  | t = -1 ]  [14 | add6  | t = -1 ]  [15 | add10 | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]
+	(3, 15)  | [3, 7, 15]  
+	(5, 8)   | [5, 1, 0, 8]
+	(15, 10) | [15, 11, 10]
+	(4, 13)  | [4, 12, 13] 
+	(8, 9)   | [8, 9]      
+	(13, 9)  | [13, 9]     
+	(10, 14) | [10, 14]    
+
+MCTS results: Mean visited rate: 49.510% | Mean visited nodes: 34.778 | 2xMean expanded nodes: 2.568 | Mean max tree depth 5.667 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping atax.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping gemm.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.1400000000000001 | Mapping Time: 4.541 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = -1 ]  [1  | R    | t = -1 ]  [2  | R    | t = -1 ]  [3  | add0 | t = -1 ] 
+	[4  | add3 | t = -1 ]  [5  | add1 | t = -1 ]  [6  | R    | t = -1 ]  [7  | R    | t = -1 ] 
+	[8  | add7 | t = -1 ]  [9  | R    | t = -1 ]  [10 | add4 | t = -1 ]  [11 | R    | t = -1 ] 
+	[12 | add8 | t = -1 ]  [13 | add5 | t = -1 ]  [14 | add6 | t = -1 ]  [15 | add2 | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]    
+	(3, 15)  | [3, 7, 15]      
+	(5, 4)   | [5, 4]          
+	(15, 10) | [15, 11, 10]    
+	(4, 13)  | [4, 0, 1, 9, 13]
+	(10, 14) | [10, 14]        
+	(8, 12)  | [8, 12]         
+
+MCTS results: Mean visited rate: 51.359% | Mean visited nodes: 71.333 | 2xMean expanded nodes: 2.365 | Mean max tree depth 6.556 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping gemm.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping cholesky.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.1600000000000001 | Mapping Time: 2.717 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: Invalid timing.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = 9  ]  [1  | R    | t = 10 ]  [2  | R    | t = 1  ]  [3  | add0 | t = 0  ] 
+	[4  | add4 | t = 8  ]  [5  | add2 | t = 3  ]  [6  | add1 | t = 2  ]  [7  | R    | t = 3  ] 
+	[8  | R    | t = 7  ]  [9  | R    | t = 11 ]  [10 | R    | t = 6  ]  [11 | R    | t = 5  ] 
+	[12 | -1   | t = -1 ]  [13 | R    | t = 12 ]  [14 | add5 | t = 13 ]  [15 | add3 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 6)  | [3, 2, 6]           
+	(6, 5)  | [6, 5]              
+	(6, 15) | [6, 7, 15]          
+	(5, 4)  | [5, 4]              
+	(15, 4) | [15, 11, 10, 8, 4]  
+	(4, 14) | [4, 0, 1, 9, 13, 14]
+
+MCTS results: Mean visited rate: 37.356% | Mean visited nodes: 22.667 | 2xMean expanded nodes: 3.749 | Mean max tree depth 3.500 | Number of Backtrackings: 6
+
+-------------------------------------------------- End Mapping cholesky.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping syrk.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.16 | Mapping Time: 3.895 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add0  | t = -1 ] 
+	[4  | add2  | t = -1 ]  [5  | add1  | t = -1 ]  [6  | R     | t = -1 ]  [7  | add11 | t = -1 ] 
+	[8  | add4  | t = -1 ]  [9  | R     | t = -1 ]  [10 | add6  | t = -1 ]  [11 | add7  | t = -1 ] 
+	[12 | R     | t = -1 ]  [13 | R     | t = -1 ]  [14 | R     | t = -1 ]  [15 | add3  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]        
+	(5, 4)   | [5, 4]              
+	(4, 15)  | [4, 0, 1, 9, 13, 15]
+	(15, 8)  | [15, 14, 12, 8]     
+	(15, 7)  | [15, 7]             
+	(10, 11) | [10, 11]            
+
+MCTS results: Mean visited rate: 55.519% | Mean visited nodes: 35.625 | 2xMean expanded nodes: 2.062 | Mean max tree depth 5.250 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping syrk.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_5_E_4.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.07999999821186066 | Mapping Time: 0.032 sec | Num Simulations: 150
+Solution found before finish the MCTS simulations.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | R    | t = 1  ]  [3  | add0 | t = 0  ] 
+	[4  | -1   | t = -1 ]  [5  | add2 | t = 3  ]  [6  | add4 | t = 2  ]  [7  | R    | t = 1  ] 
+	[8  | -1   | t = -1 ]  [9  | R    | t = 4  ]  [10 | add1 | t = 5  ]  [11 | -1   | t = -1 ] 
+	[12 | -1   | t = -1 ]  [13 | -1   | t = -1 ]  [14 | -1   | t = -1 ]  [15 | add3 | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 6)  | [3, 2, 6] 
+	(3, 15) | [3, 7, 15]
+	(6, 5)  | [6, 5]    
+	(5, 10) | [5, 9, 10]
+
+MCTS results: Mean visited rate: 8.784% | Mean visited nodes: 13.000 | 2xMean expanded nodes: 11.308 | Mean max tree depth 5.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_5_E_4.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_12_E_12.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.17 | Mapping Time: 4.373 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add7  | t = -1 ] 
+	[4  | add11 | t = -1 ]  [5  | add0  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add10 | t = -1 ]  [9  | add1  | t = -1 ]  [10 | R     | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add6  | t = -1 ]  [13 | add2  | t = -1 ]  [14 | add5  | t = -1 ]  [15 | add3  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 15)  | [3, 7, 15]     
+	(3, 5)   | [3, 2, 6, 5]   
+	(5, 4)   | [5, 4]         
+	(15, 8)  | [15, 11, 10, 8]
+	(15, 14) | [15, 14]       
+	(4, 9)   | [4, 0, 1, 9]   
+	(8, 9)   | [8, 9]         
+	(8, 12)  | [8, 12]        
+	(14, 13) | [14, 13]       
+
+MCTS results: Mean visited rate: 56.036% | Mean visited nodes: 73.889 | 2xMean expanded nodes: 2.027 | Mean max tree depth 6.444 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_12_E_12.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping balanced-pre.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -2.2 | Mapping Time: 5.490 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: Invalid Routing.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | add8  | t = -1 ]  [2  | R     | t = -1 ]  [3  | add1  | t = -1 ] 
+	[4  | add0  | t = -1 ]  [5  | add4  | t = -1 ]  [6  | add9  | t = -1 ]  [7  | add3  | t = -1 ] 
+	[8  | add2  | t = -1 ]  [9  | add7  | t = -1 ]  [10 | R     | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add6  | t = -1 ]  [13 | R     | t = -1 ]  [14 | add5  | t = -1 ]  [15 | add10 | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(15, 6)  | [15, 11, 10, 6]
+	(3, 4)   | [3, 2, 0, 4]   
+	(6, 4)   | [6, 4]         
+	(5, 7)   | [5, 7]         
+	(6, 7)   | [6, 7]         
+	(4, 8)   | [4, 8]         
+	(7, 14)  | []             
+	(8, 12)  | [8, 12]        
+	(14, 12) | [14, 12]       
+	(12, 9)  | [12, 13, 9]    
+	(9, 1)   | [9, 1]         
+
+MCTS results: Mean visited rate: 52.415% | Mean visited nodes: 71.778 | 2xMean expanded nodes: 2.177 | Mean max tree depth 6.000 | Number of Backtrackings: 6
+
+-------------------------------------------------- End Mapping balanced-pre.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_13_E_14.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.17 | Mapping Time: 3.444 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add10 | t = -1 ] 
+	[4  | add3  | t = -1 ]  [5  | add7  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | R     | t = -1 ]  [9  | R     | t = -1 ]  [10 | R     | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add8  | t = -1 ]  [13 | add11 | t = -1 ]  [14 | add5  | t = -1 ]  [15 | add4  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 15)  | [3, 7, 15]        
+	(3, 5)   | [3, 2, 6, 5]      
+	(15, 4)  | [15, 11, 10, 8, 4]
+	(4, 13)  | [4, 0, 1, 9, 13]  
+	(4, 12)  | [4, 12]           
+	(13, 14) | [13, 14]          
+
+MCTS results: Mean visited rate: 62.836% | Mean visited nodes: 49.571 | 2xMean expanded nodes: 1.798 | Mean max tree depth 5.714 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_13_E_14.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping balanced-sum.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.1099999975413084 | Mapping Time: 0.050 sec | Num Simulations: 150
+Solution found before finish the MCTS simulations.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add6 | t = 0  ] 
+	[4  | add2 | t = 6  ]  [5  | add1 | t = 4  ]  [6  | add0 | t = 5  ]  [7  | R    | t = 1  ] 
+	[8  | add3 | t = 7  ]  [9  | add4 | t = 8  ]  [10 | R    | t = 4  ]  [11 | R    | t = 3  ] 
+	[12 | -1   | t = -1 ]  [13 | -1   | t = -1 ]  [14 | -1   | t = -1 ]  [15 | add5 | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 15) | [3, 7, 15]     
+	(5, 6)  | [5, 6]         
+	(15, 6) | [15, 11, 10, 6]
+	(6, 4)  | [6, 4]         
+	(4, 8)  | [4, 8]         
+	(8, 9)  | [8, 9]         
+
+MCTS results: Mean visited rate: 9.045% | Mean visited nodes: 18.000 | 2xMean expanded nodes: 11.000 | Mean max tree depth 7.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping balanced-sum.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_15_E_15.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.18 | Mapping Time: 3.968 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add5  | t = -1 ] 
+	[4  | add9  | t = -1 ]  [5  | add14 | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add0  | t = -1 ]  [9  | R     | t = -1 ]  [10 | add10 | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | add6  | t = -1 ]  [13 | R     | t = -1 ]  [14 | add8  | t = -1 ]  [15 | add3  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)   | [3, 2, 6, 5]
+	(3, 15)  | [3, 7, 15]  
+	(3, 4)   | [3, 1, 0, 4]
+	(15, 10) | [15, 11, 10]
+	(5, 8)   | [5, 9, 8]   
+	(5, 12)  | [5, 13, 12] 
+	(15, 14) | [15, 14]    
+
+MCTS results: Mean visited rate: 58.847% | Mean visited nodes: 45.250 | 2xMean expanded nodes: 2.037 | Mean max tree depth 5.500 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_15_E_15.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping mvt.dot --------------------------------------------------
+
+Unsuccessful Mapping | Routing Penalty: -1.15 | Mapping Time: 3.901 sec | Num Simulations: 150
+Unsuccessful Mapping Reason: At least one node was not mapped.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R     | t = -1 ]  [1  | R     | t = -1 ]  [2  | R     | t = -1 ]  [3  | add0  | t = -1 ] 
+	[4  | add3  | t = -1 ]  [5  | add1  | t = -1 ]  [6  | R     | t = -1 ]  [7  | R     | t = -1 ] 
+	[8  | add4  | t = -1 ]  [9  | add11 | t = -1 ]  [10 | R     | t = -1 ]  [11 | R     | t = -1 ] 
+	[12 | R     | t = -1 ]  [13 | add6  | t = -1 ]  [14 | add7  | t = -1 ]  [15 | add2  | t = -1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 5)  | [3, 2, 6, 5]   
+	(3, 15) | [3, 7, 15]     
+	(5, 4)  | [5, 4]         
+	(15, 8) | [15, 11, 10, 8]
+	(4, 9)  | [4, 0, 1, 9]   
+	(8, 13) | [8, 12, 13]    
+
+MCTS results: Mean visited rate: 51.083% | Mean visited nodes: 81.125 | 2xMean expanded nodes: 2.425 | Mean max tree depth 6.875 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping mvt.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_10_E_9.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.1599999964237213 | Mapping Time: 0.954 sec | Num Simulations: 150
+Solution found before finish the MCTS simulations.
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | R    | t = 5 ]  [1  | R    | t = 4 ]  [2  | R    | t = 1 ]  [3  | add1 | t = 0 ] 
+	[4  | add0 | t = 3 ]  [5  | add9 | t = 3 ]  [6  | add4 | t = 2 ]  [7  | R    | t = 3 ] 
+	[8  | add7 | t = 6 ]  [9  | add2 | t = 7 ]  [10 | add8 | t = 6 ]  [11 | R    | t = 5 ] 
+	[12 | R    | t = 7 ]  [13 | add3 | t = 8 ]  [14 | add5 | t = 7 ]  [15 | add6 | t = 4 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 6)   | [3, 2, 6]   
+	(6, 15)  | [6, 7, 15]  
+	(6, 5)   | [6, 5]      
+	(6, 4)   | [6, 4]      
+	(15, 10) | [15, 11, 10]
+	(5, 8)   | [5, 1, 0, 8]
+	(10, 14) | [10, 14]    
+	(8, 9)   | [8, 9]      
+	(8, 13)  | [8, 12, 13] 
+
+MCTS results: Mean visited rate: 27.086% | Mean visited nodes: 89.500 | 2xMean expanded nodes: 3.695 | Mean max tree depth 9.500 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_10_E_9.dot --------------------------------------------------
+
+
+

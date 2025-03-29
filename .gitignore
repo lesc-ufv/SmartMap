@@ -1,0 +1,10 @@
+run_tests.sh
+.pytest_cache
+# /benchmarks/*
+*.pyc
+# results/*
+logs/*
+tests.py
+legacy/*
+__pycache__
+ignore/

@@ -1,0 +1,85 @@
+digraph G {
+add0[opcode=add][level=2];
+const1[opcode=const][data=220][level=2];
+load2[opcode=load][name=a][level=3];
+add3[opcode=add][level=2];
+const4[opcode=const][data=220][level=2];
+load5[opcode=load][name=b][level=3];
+mul6[opcode=mul][level=3];
+add7[opcode=add][level=4];
+store8[opcode=store][level=4];
+add9[opcode=add][level=3];
+const10[opcode=const][data=1][level=3];
+mul11[opcode=mul][level=4];
+add12[opcode=add][level=2];
+const13[opcode=const][data=220][level=2];
+load14[opcode=load][name=c][level=5];
+mul15[opcode=mul][level=5];
+add16[opcode=add][level=2];
+const17[opcode=const][data=220][level=2];
+load18[opcode=load][name=d][level=6];
+mul19[opcode=mul][level=6];
+add20[opcode=add][level=7];
+store21[opcode=store][level=7];
+add22[opcode=add][level=1];
+const23[opcode=const][data=1][level=1];
+load24[opcode=load][name=a][level=4];
+load25[opcode=load][name=b][level=3];
+add26[opcode=add][level=3];
+const27[opcode=const][data=0][level=3];
+add28[opcode=add][level=4];
+const29[opcode=const][data=0][level=4];
+add30[opcode=add][level=3];
+const31[opcode=const][data=0][level=3];
+add32[opcode=add][level=4];
+const33[opcode=const][data=0][level=4];
+add34[opcode=add][level=5];
+const35[opcode=const][data=0][level=5];
+add36[opcode=add][level=3];
+const37[opcode=const][data=0][level=3];
+const38[opcode=const];
+const39[opcode=const];
+load2->mul6[operand=1][size=32]; //a->mul
+load24->mul11[operand=1][size=32]; //a->mul
+load5->mul6[operand=0][size=32]; //b->mul
+load25->add9[operand=0][size=32]; //b->add
+mul6->add7[operand=0][size=32]; //mul->add
+add7->store8[operand=0][size=32]; //add->store
+const38->store8[operand=1][size=32]; //add->store
+add9->mul11[operand=0][size=32]; //add->mul
+mul11->mul15[operand=0][size=32]; //mul->mul
+load14->mul15[operand=1][size=32]; //c->mul
+mul15->mul19[operand=0][size=32]; //mul->mul
+load18->mul19[operand=1][size=32]; //d->mul
+mul19->add20[operand=0][size=32]; //mul->add
+add20->store21[operand=0][size=32]; //add->store
+const39->store21[operand=1][size=32]; //add->store
+add22->add0[operand=1][size=32]; //add->gep_add_sgh
+add22->add3[operand=1][size=32]; //add->gep_add_sgh
+add22->add12[operand=1][size=32]; //add->gep_add_sgh
+add22->add16[operand=1][size=32]; //add->gep_add_sgh
+const1->add0[operand=0][size=32]; //base->gep_add_sgh
+add0->load2[operand=0][size=32]; //gep_add_sgh->a
+const4->add3[operand=0][size=32]; //base->gep_add_sgh
+add3->load5[operand=0][size=32]; //gep_add_sgh->b
+const10->add9[operand=1][size=32]; //1->add
+const13->add12[operand=0][size=32]; //base->gep_add_sgh
+add12->add26[operand=0][size=32]; //gep_add_sgh->c
+const17->add16[operand=0][size=32]; //base->gep_add_sgh
+add16->add30[operand=0][size=32]; //gep_add_sgh->d
+const23->add22[operand=1][size=32]; //1->add
+add0->add36[operand=0][size=32]; //gep_add_sgh->a
+add3->load25[operand=0][size=32]; //gep_add_sgh->b
+const27->add26[operand=1][size=32];//0->add26
+add26->add28[operand=0][size=32];//0->add26
+const29->add28[operand=1][size=32];//0->add28
+add28->load14[operand=0][size=32]; //gep_add_sgh->c
+const31->add30[operand=1][size=32];//0->add30
+add30->add32[operand=0][size=32];//0->add30
+const33->add32[operand=1][size=32];//0->add32
+add32->add34[operand=0][size=32];//0->add32
+const35->add34[operand=1][size=32];//0->add34
+add34->load18[operand=0][size=32]; //gep_add_sgh->d
+const37->add36[operand=1][size=32];//0->add36
+add36->load24[operand=0][size=32]; //gep_add_sgh->a
+}

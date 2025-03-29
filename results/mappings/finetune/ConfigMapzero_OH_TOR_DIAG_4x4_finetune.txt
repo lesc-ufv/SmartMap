@@ -1,0 +1,767 @@
+-------------------------------------------------- Mapping V_14_E_14.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.20999999731779098 | Mapping Time: 32.587 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add1  | t = 6  ]  [1  | add11 | t = 5  ]  [2  | add9  | t = 2  ]  [3  | add6  | t = 1  ] 
+	[4  | add8  | t = 4  ]  [5  | add4  | t = 4  ]  [6  | add10 | t = 3  ]  [7  | R     | t = 3  ] 
+	[8  | -1    | t = -1 ]  [9  | add7  | t = 3  ]  [10 | add0  | t = 4  ]  [11 | add12 | t = 0  ] 
+	[12 | add5  | t = 3  ]  [13 | add3  | t = 2  ]  [14 | add2  | t = 1  ]  [15 | add13 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 14) | [11, 14]  
+	(11, 3)  | [11, 3]   
+	(14, 13) | [14, 13]  
+	(3, 2)   | [3, 2]    
+	(13, 9)  | [13, 9]   
+	(13, 12) | [13, 12]  
+	(2, 6)   | [2, 6]    
+	(2, 15)  | [2, 7, 15]
+	(6, 10)  | [6, 10]   
+	(9, 10)  | [9, 10]   
+	(6, 4)   | [6, 4]    
+	(9, 5)   | [9, 5]    
+	(4, 1)   | [4, 1]    
+	(1, 0)   | [1, 0]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 38.369% | Mean visited nodes: 71.182 | 2xMean expanded nodes: 4.568 | Mean max tree depth 7.091 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_14_E_14.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_8_E_9.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.21999999694526196 | Mapping Time: 4.959 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add3 | t = 2  ] 
+	[4  | add2 | t = 3  ]  [5  | add5 | t = 5  ]  [6  | R    | t = 1  ]  [7  | R    | t = 4  ] 
+	[8  | add7 | t = 1  ]  [9  | add1 | t = 2  ]  [10 | add6 | t = 0  ]  [11 | add0 | t = 1  ] 
+	[12 | R    | t = 2  ]  [13 | -1   | t = -1 ]  [14 | -1   | t = -1 ]  [15 | add4 | t = 3  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(10, 8)  | [10, 8]    
+	(10, 11) | [10, 11]   
+	(10, 3)  | [10, 6, 3] 
+	(8, 9)   | [8, 9]     
+	(11, 9)  | [11, 9]    
+	(8, 15)  | [8, 12, 15]
+	(3, 15)  | [3, 15]    
+	(9, 4)   | [9, 4]     
+	(15, 5)  | [15, 7, 5] 
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 12.613% | Mean visited nodes: 40.000 | 2xMean expanded nodes: 8.029 | Mean max tree depth 7.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_8_E_9.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_16_E_19.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.34000000037252903 | Mapping Time: 475.777 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add13 | t = 4 ]  [1  | add4  | t = 5 ]  [2  | add15 | t = 2 ]  [3  | add0  | t = 1 ] 
+	[4  | add5  | t = 4 ]  [5  | add9  | t = 3 ]  [6  | add11 | t = 2 ]  [7  | add10 | t = 3 ] 
+	[8  | add7  | t = 3 ]  [9  | add8  | t = 2 ]  [10 | add14 | t = 1 ]  [11 | add2  | t = 2 ] 
+	[12 | add12 | t = 3 ]  [13 | add3  | t = 2 ]  [14 | add1  | t = 1 ]  [15 | add6  | t = 0 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(15, 10) | [15, 10]
+	(15, 14) | [15, 14]
+	(10, 6)  | [10, 6] 
+	(3, 6)   | [3, 6]  
+	(10, 13) | [10, 13]
+	(14, 13) | [14, 13]
+	(10, 9)  | [10, 9] 
+	(14, 11) | [14, 11]
+	(3, 2)   | [3, 2]  
+	(6, 5)   | [6, 5]  
+	(2, 7)   | [2, 7]  
+	(9, 12)  | [9, 12] 
+	(13, 12) | [13, 12]
+	(11, 8)  | [11, 8] 
+	(13, 8)  | [13, 8] 
+	(7, 4)   | [7, 4]  
+	(12, 0)  | [12, 0] 
+	(8, 0)   | [8, 0]  
+	(4, 1)   | [4, 1]  
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 40.415% | Mean visited nodes: 65.083 | 2xMean expanded nodes: 3.848 | Mean max tree depth 6.833 | Number of Backtrackings: 2
+
+-------------------------------------------------- End Mapping V_16_E_19.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_9_E_10.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.24999999716877938 | Mapping Time: 6.188 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add7 | t = 6  ]  [1  | R    | t = 4  ]  [2  | R    | t = 5  ]  [3  | add4 | t = 5  ] 
+	[4  | add2 | t = 0  ]  [5  | R    | t = 1  ]  [6  | add1 | t = 3  ]  [7  | add8 | t = 4  ] 
+	[8  | R    | t = 1  ]  [9  | R    | t = 3  ]  [10 | add0 | t = 2  ]  [11 | add6 | t = 2  ] 
+	[12 | add5 | t = 7  ]  [13 | -1   | t = -1 ]  [14 | R    | t = 6  ]  [15 | add3 | t = 3  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(4, 11)  | [4, 8, 11]    
+	(4, 10)  | [4, 5, 10]    
+	(11, 6)  | [11, 6]       
+	(10, 6)  | [10, 6]       
+	(11, 15) | [11, 15]      
+	(10, 3)  | [10, 9, 1, 3] 
+	(6, 7)   | [6, 7]        
+	(15, 7)  | [15, 7]       
+	(3, 0)   | [3, 0]        
+	(7, 12)  | [7, 2, 14, 12]
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 17.416% | Mean visited nodes: 54.600 | 2xMean expanded nodes: 5.820 | Mean max tree depth 7.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_9_E_10.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_11_E_11.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.2499999962747097 | Mapping Time: 4.933 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add2  | t = 4  ]  [1  | -1    | t = -1 ]  [2  | R     | t = 1  ]  [3  | add10 | t = 0  ] 
+	[4  | add5  | t = 3  ]  [5  | add6  | t = 4  ]  [6  | add7  | t = 1  ]  [7  | R     | t = 2  ] 
+	[8  | add3  | t = 4  ]  [9  | add8  | t = 3  ]  [10 | add0  | t = 2  ]  [11 | add4  | t = 1  ] 
+	[12 | add9  | t = 3  ]  [13 | R     | t = 3  ]  [14 | -1    | t = -1 ]  [15 | add1  | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 11)  | [3, 11]    
+	(3, 10)  | [3, 2, 10] 
+	(3, 6)   | [3, 6]     
+	(11, 15) | [11, 15]   
+	(11, 4)  | [11, 7, 4] 
+	(10, 9)  | [10, 9]    
+	(15, 12) | [15, 12]   
+	(15, 5)  | [15, 13, 5]
+	(4, 5)   | [4, 5]     
+	(12, 0)  | [12, 0]    
+	(12, 8)  | [12, 8]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 13.679% | Mean visited nodes: 68.000 | 2xMean expanded nodes: 7.301 | Mean max tree depth 10.500 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_11_E_11.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping doitgen.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.2999999976158142 | Mapping Time: 216.095 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add12 | t = 5 ]  [1  | add14 | t = 4 ]  [2  | add15 | t = 5 ]  [3  | add13 | t = 2 ] 
+	[4  | add7  | t = 4 ]  [5  | add11 | t = 6 ]  [6  | add5  | t = 1 ]  [7  | add3  | t = 3 ] 
+	[8  | add10 | t = 4 ]  [9  | add4  | t = 2 ]  [10 | add2  | t = 1 ]  [11 | add0  | t = 0 ] 
+	[12 | add8  | t = 3 ]  [13 | add9  | t = 3 ]  [14 | add6  | t = 2 ]  [15 | add1  | t = 1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 15) | [11, 15]
+	(11, 10) | [11, 10]
+	(15, 3)  | [15, 3] 
+	(10, 9)  | [10, 9] 
+	(6, 14)  | [6, 14] 
+	(3, 7)   | [3, 7]  
+	(9, 12)  | [9, 12] 
+	(14, 13) | [14, 13]
+	(7, 4)   | [7, 4]  
+	(12, 4)  | [12, 4] 
+	(13, 8)  | [13, 8] 
+	(13, 1)  | [13, 1] 
+	(4, 0)   | [4, 0]  
+	(8, 0)   | [8, 0]  
+	(1, 2)   | [1, 2]  
+	(0, 5)   | [0, 5]  
+	(2, 5)   | [2, 5]  
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 41.165% | Mean visited nodes: 65.385 | 2xMean expanded nodes: 4.351 | Mean max tree depth 7.385 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping doitgen.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_7_E_7.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.11999999731779099 | Mapping Time: 4.692 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add2 | t = 2  ] 
+	[4  | add1 | t = 3  ]  [5  | -1   | t = -1 ]  [6  | add3 | t = 1  ]  [7  | -1   | t = -1 ] 
+	[8  | -1   | t = -1 ]  [9  | add4 | t = 2  ]  [10 | add5 | t = 1  ]  [11 | add0 | t = 0  ] 
+	[12 | -1   | t = -1 ]  [13 | -1   | t = -1 ]  [14 | -1   | t = -1 ]  [15 | add6 | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 10) | [11, 10]
+	(11, 6)  | [11, 6] 
+	(10, 9)  | [10, 9] 
+	(6, 9)   | [6, 9]  
+	(10, 15) | [10, 15]
+	(6, 3)   | [6, 3]  
+	(9, 4)   | [9, 4]  
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 8.451% | Mean visited nodes: 12.000 | 2xMean expanded nodes: 11.750 | Mean max tree depth 7.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_7_E_7.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping cholesky_unroll.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.3499999967962504 | Mapping Time: 9.815 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add9  | t = 5 ]  [1  | R     | t = 2 ]  [2  | add10 | t = 6 ]  [3  | add2  | t = 1 ] 
+	[4  | add5  | t = 3 ]  [5  | R     | t = 3 ]  [6  | add3  | t = 2 ]  [7  | R     | t = 2 ] 
+	[8  | add7  | t = 4 ]  [9  | add6  | t = 3 ]  [10 | add1  | t = 1 ]  [11 | add0  | t = 0 ] 
+	[12 | add8  | t = 4 ]  [13 | R     | t = 3 ]  [14 | add11 | t = 7 ]  [15 | add4  | t = 2 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 10) | [11, 10]   
+	(11, 3)  | [11, 3]    
+	(10, 6)  | [10, 6]    
+	(10, 15) | [10, 15]   
+	(3, 4)   | [3, 7, 4]  
+	(3, 9)   | [3, 1, 9]  
+	(6, 8)   | [6, 5, 8]  
+	(15, 8)  | [15, 13, 8]
+	(4, 12)  | [4, 12]    
+	(9, 12)  | [9, 12]    
+	(8, 0)   | [8, 0]     
+	(12, 0)  | [12, 0]    
+	(0, 2)   | [0, 2]     
+	(2, 14)  | [2, 14]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 38.776% | Mean visited nodes: 64.667 | 2xMean expanded nodes: 3.143 | Mean max tree depth 6.778 | Number of Backtrackings: 4
+
+-------------------------------------------------- End Mapping cholesky_unroll.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_6_E_5.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.11999999731779099 | Mapping Time: 4.948 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add3 | t = 5  ] 
+	[4  | -1   | t = -1 ]  [5  | -1   | t = -1 ]  [6  | add2 | t = 2  ]  [7  | R    | t = 3  ] 
+	[8  | -1   | t = -1 ]  [9  | add5 | t = 2  ]  [10 | add4 | t = 1  ]  [11 | add0 | t = 0  ] 
+	[12 | -1   | t = -1 ]  [13 | R    | t = 3  ]  [14 | -1   | t = -1 ]  [15 | add1 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 10) | [11, 10]   
+	(10, 6)  | [10, 6]    
+	(10, 9)  | [10, 9]    
+	(9, 15)  | [9, 13, 15]
+	(6, 15)  | [6, 7, 15] 
+	(15, 3)  | [15, 3]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 8.654% | Mean visited nodes: 9.000 | 2xMean expanded nodes: 11.444 | Mean max tree depth 6.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_6_E_5.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping symm.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.2599999959766865 | Mapping Time: 26.588 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add13 | t = 2 ]  [1  | add2  | t = 1 ]  [2  | add15 | t = 5 ]  [3  | add0  | t = 0 ] 
+	[4  | add6  | t = 3 ]  [5  | add10 | t = 6 ]  [6  | add14 | t = 4 ]  [7  | add3  | t = 1 ] 
+	[8  | add9  | t = 4 ]  [9  | add11 | t = 4 ]  [10 | add7  | t = 3 ]  [11 | add4  | t = 2 ] 
+	[12 | add8  | t = 3 ]  [13 | add12 | t = 5 ]  [14 | add5  | t = 2 ]  [15 | add1  | t = 1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(3, 15)  | [3, 15] 
+	(3, 1)   | [3, 1]  
+	(15, 14) | [15, 14]
+	(1, 0)   | [1, 0]  
+	(7, 11)  | [7, 11] 
+	(14, 12) | [14, 12]
+	(0, 4)   | [0, 4]  
+	(11, 10) | [11, 10]
+	(10, 9)  | [10, 9] 
+	(12, 9)  | [12, 9] 
+	(4, 8)   | [4, 8]  
+	(4, 6)   | [4, 6]  
+	(8, 13)  | [8, 13] 
+	(9, 13)  | [9, 13] 
+	(6, 2)   | [6, 2]  
+	(13, 5)  | [13, 5] 
+	(2, 5)   | [2, 5]  
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 41.318% | Mean visited nodes: 68.385 | 2xMean expanded nodes: 4.467 | Mean max tree depth 5.692 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping symm.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping atax.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.25999999552965164 | Mapping Time: 10.481 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add9  | t = 5  ]  [1  | add7  | t = 6  ]  [2  | add12 | t = 5  ]  [3  | add8  | t = 4  ] 
+	[4  | add6  | t = 4  ]  [5  | add11 | t = 4  ]  [6  | add2  | t = 3  ]  [7  | add5  | t = 3  ] 
+	[8  | R     | t = 1  ]  [9  | R     | t = 2  ]  [10 | add3  | t = 2  ]  [11 | add1  | t = 2  ] 
+	[12 | add0  | t = 0  ]  [13 | add10 | t = 1  ]  [14 | -1    | t = -1 ]  [15 | add4  | t = 3  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(12, 11) | [12, 8, 11]
+	(12, 13) | [12, 13]   
+	(11, 7)  | [11, 7]    
+	(13, 6)  | [13, 9, 6] 
+	(10, 15) | [10, 15]   
+	(7, 3)   | [7, 3]     
+	(15, 3)  | [15, 3]    
+	(6, 4)   | [6, 4]     
+	(6, 5)   | [6, 5]     
+	(4, 0)   | [4, 0]     
+	(3, 0)   | [3, 0]     
+	(5, 2)   | [5, 2]     
+	(0, 1)   | [0, 1]     
+	(2, 1)   | [2, 1]     
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 24.563% | Mean visited nodes: 84.778 | 2xMean expanded nodes: 4.762 | Mean max tree depth 6.583 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping atax.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping gemm.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.29999999806284905 | Mapping Time: 37.067 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add5  | t = 3 ]  [1  | R     | t = 5 ]  [2  | add12 | t = 6 ]  [3  | add2  | t = 1 ] 
+	[4  | add9  | t = 4 ]  [5  | add6  | t = 3 ]  [6  | add4  | t = 2 ]  [7  | add10 | t = 5 ] 
+	[8  | add13 | t = 5 ]  [9  | add7  | t = 3 ]  [10 | add8  | t = 4 ]  [11 | add0  | t = 0 ] 
+	[12 | add3  | t = 2 ]  [13 | add14 | t = 6 ]  [14 | add11 | t = 7 ]  [15 | add1  | t = 1 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 15) | [11, 15] 
+	(11, 3)  | [11, 3]  
+	(15, 12) | [15, 12] 
+	(3, 6)   | [3, 6]   
+	(12, 0)  | [12, 0]  
+	(6, 5)   | [6, 5]   
+	(9, 10)  | [9, 10]  
+	(0, 4)   | [0, 4]   
+	(5, 4)   | [5, 4]   
+	(10, 7)  | [10, 7]  
+	(10, 8)  | [10, 8]  
+	(4, 2)   | [4, 1, 2]
+	(7, 2)   | [7, 2]   
+	(8, 13)  | [8, 13]  
+	(2, 14)  | [2, 14]  
+	(13, 14) | [13, 14] 
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 27.279% | Mean visited nodes: 75.818 | 2xMean expanded nodes: 5.766 | Mean max tree depth 6.000 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping gemm.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping cholesky.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.11999999731779099 | Mapping Time: 4.870 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add5 | t = 5  ] 
+	[4  | -1   | t = -1 ]  [5  | -1   | t = -1 ]  [6  | add2 | t = 2  ]  [7  | R    | t = 3  ] 
+	[8  | -1   | t = -1 ]  [9  | add3 | t = 2  ]  [10 | add1 | t = 1  ]  [11 | add0 | t = 0  ] 
+	[12 | -1   | t = -1 ]  [13 | R    | t = 3  ]  [14 | -1   | t = -1 ]  [15 | add4 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 10) | [11, 10]   
+	(10, 6)  | [10, 6]    
+	(10, 9)  | [10, 9]    
+	(6, 15)  | [6, 7, 15] 
+	(9, 15)  | [9, 13, 15]
+	(15, 3)  | [15, 3]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 8.889% | Mean visited nodes: 16.000 | 2xMean expanded nodes: 11.188 | Mean max tree depth 6.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping cholesky.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping syrk.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.29999999664723875 | Mapping Time: 11.613 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add9  | t = 9 ]  [1  | add5  | t = 7 ]  [2  | add6  | t = 5 ]  [3  | add4  | t = 6 ] 
+	[4  | R     | t = 4 ]  [5  | add10 | t = 8 ]  [6  | add11 | t = 6 ]  [7  | add3  | t = 5 ] 
+	[8  | add13 | t = 8 ]  [9  | add8  | t = 7 ]  [10 | add0  | t = 0 ]  [11 | add1  | t = 1 ] 
+	[12 | add2  | t = 3 ]  [13 | add12 | t = 7 ]  [14 | add7  | t = 6 ]  [15 | R     | t = 2 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(10, 11) | [10, 11]    
+	(11, 12) | [11, 15, 12]
+	(12, 7)  | [12, 4, 7]  
+	(7, 3)   | [7, 3]      
+	(7, 6)   | [7, 6]      
+	(2, 14)  | [2, 14]     
+	(3, 1)   | [3, 1]      
+	(6, 1)   | [6, 1]      
+	(14, 9)  | [14, 9]     
+	(14, 13) | [14, 13]    
+	(1, 5)   | [1, 5]      
+	(9, 5)   | [9, 5]      
+	(13, 8)  | [13, 8]     
+	(5, 0)   | [5, 0]      
+	(8, 0)   | [8, 0]      
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 43.850% | Mean visited nodes: 69.000 | 2xMean expanded nodes: 3.712 | Mean max tree depth 6.385 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping syrk.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_5_E_4.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.06999999843537807 | Mapping Time: 4.492 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | -1   | t = -1 ] 
+	[4  | -1   | t = -1 ]  [5  | -1   | t = -1 ]  [6  | add3 | t = 1  ]  [7  | -1   | t = -1 ] 
+	[8  | -1   | t = -1 ]  [9  | add2 | t = 2  ]  [10 | add4 | t = 1  ]  [11 | add0 | t = 0  ] 
+	[12 | -1   | t = -1 ]  [13 | R    | t = 3  ]  [14 | -1   | t = -1 ]  [15 | add1 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 10) | [11, 10]   
+	(11, 6)  | [11, 6]    
+	(10, 9)  | [10, 9]    
+	(9, 15)  | [9, 13, 15]
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 7.914% | Mean visited nodes: 11.000 | 2xMean expanded nodes: 12.545 | Mean max tree depth 5.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_5_E_4.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_12_E_12.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.2699999962747097 | Mapping Time: 6.281 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add8  | t = 4  ]  [1  | add4  | t = 5  ]  [2  | -1    | t = -1 ]  [3  | add0  | t = 2  ] 
+	[4  | add5  | t = 2  ]  [5  | add2  | t = 3  ]  [6  | R     | t = 1  ]  [7  | add3  | t = 1  ] 
+	[8  | add9  | t = 4  ]  [9  | add1  | t = 4  ]  [10 | add7  | t = 0  ]  [11 | add11 | t = 3  ] 
+	[12 | add6  | t = 3  ]  [13 | -1    | t = -1 ]  [14 | R     | t = 3  ]  [15 | add10 | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(10, 7)  | [10, 7]    
+	(10, 3)  | [10, 6, 3] 
+	(3, 11)  | [3, 11]    
+	(7, 15)  | [7, 15]    
+	(7, 4)   | [7, 4]     
+	(11, 9)  | [11, 9]    
+	(15, 9)  | [15, 14, 9]
+	(15, 12) | [15, 12]   
+	(4, 5)   | [4, 5]     
+	(12, 0)  | [12, 0]    
+	(5, 8)   | [5, 8]     
+	(0, 1)   | [0, 1]     
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 17.801% | Mean visited nodes: 90.200 | 2xMean expanded nodes: 5.693 | Mean max tree depth 10.250 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_12_E_12.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping balanced-pre.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.27999999560415745 | Mapping Time: 5.974 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add7  | t = 6  ]  [1  | R     | t = 2  ]  [2  | add8  | t = 7  ]  [3  | add9  | t = 1  ] 
+	[4  | add0  | t = 3  ]  [5  | add6  | t = 5  ]  [6  | add10 | t = 0  ]  [7  | R     | t = 2  ] 
+	[8  | R     | t = 4  ]  [9  | add2  | t = 4  ]  [10 | add4  | t = 1  ]  [11 | add1  | t = 1  ] 
+	[12 | add5  | t = 3  ]  [13 | -1    | t = -1 ]  [14 | -1    | t = -1 ]  [15 | add3  | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(6, 3)   | [6, 3]    
+	(11, 4)  | [11, 7, 4]
+	(3, 4)   | [3, 1, 4] 
+	(10, 15) | [10, 15]  
+	(3, 15)  | [3, 15]   
+	(4, 9)   | [4, 9]    
+	(15, 12) | [15, 12]  
+	(9, 5)   | [9, 5]    
+	(12, 5)  | [12, 8, 5]
+	(5, 0)   | [5, 0]    
+	(0, 2)   | [0, 2]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 14.827% | Mean visited nodes: 96.750 | 2xMean expanded nodes: 7.149 | Mean max tree depth 8.500 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping balanced-pre.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_13_E_14.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.2699999985098839 | Mapping Time: 10.878 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add2  | t = 6  ]  [1  | add1  | t = 7  ]  [2  | R     | t = 5  ]  [3  | add7  | t = 1  ] 
+	[4  | add8  | t = 3  ]  [5  | add9  | t = 4  ]  [6  | add3  | t = 2  ]  [7  | R     | t = 3  ] 
+	[8  | add0  | t = 7  ]  [9  | add6  | t = 6  ]  [10 | add4  | t = 1  ]  [11 | add10 | t = 0  ] 
+	[12 | add5  | t = 5  ]  [13 | -1    | t = -1 ]  [14 | add12 | t = 6  ]  [15 | add11 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 10) | [11, 10]  
+	(11, 3)  | [11, 3]   
+	(10, 6)  | [10, 6]   
+	(6, 15)  | [6, 7, 15]
+	(6, 4)   | [6, 4]    
+	(15, 12) | [15, 12]  
+	(4, 5)   | [4, 5]    
+	(12, 9)  | [12, 9]   
+	(12, 14) | [12, 14]  
+	(5, 14)  | [5, 2, 14]
+	(12, 0)  | [12, 0]   
+	(9, 8)   | [9, 8]    
+	(0, 8)   | [0, 8]    
+	(0, 1)   | [0, 1]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 44.353% | Mean visited nodes: 66.182 | 2xMean expanded nodes: 3.564 | Mean max tree depth 6.000 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_13_E_14.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping balanced-sum.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.14999999664723873 | Mapping Time: 4.527 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add3 | t = 5  ] 
+	[4  | add4 | t = 7  ]  [5  | -1   | t = -1 ]  [6  | add5 | t = 1  ]  [7  | R    | t = 6  ] 
+	[8  | -1   | t = -1 ]  [9  | add0 | t = 2  ]  [10 | add1 | t = 1  ]  [11 | add6 | t = 0  ] 
+	[12 | -1   | t = -1 ]  [13 | R    | t = 3  ]  [14 | -1   | t = -1 ]  [15 | add2 | t = 4  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 6) | [11, 6]    
+	(10, 9) | [10, 9]    
+	(6, 9)  | [6, 9]     
+	(9, 15) | [9, 13, 15]
+	(15, 3) | [15, 3]    
+	(3, 4)  | [3, 7, 4]  
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 8.636% | Mean visited nodes: 19.000 | 2xMean expanded nodes: 11.526 | Mean max tree depth 7.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping balanced-sum.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_15_E_15.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.28999999418854716 | Mapping Time: 23.461 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add12 | t = 3  ]  [1  | add4  | t = 4  ]  [2  | add2  | t = 4  ]  [3  | add9  | t = 1  ] 
+	[4  | add13 | t = 3  ]  [5  | add1  | t = 4  ]  [6  | add10 | t = 2  ]  [7  | -1    | t = -1 ] 
+	[8  | add7  | t = 3  ]  [9  | add6  | t = 2  ]  [10 | add3  | t = 1  ]  [11 | add8  | t = 2  ] 
+	[12 | add0  | t = 2  ]  [13 | add11 | t = 5  ]  [14 | add14 | t = 1  ]  [15 | add5  | t = 0  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(15, 14) | [15, 14]
+	(15, 10) | [15, 10]
+	(15, 3)  | [15, 3] 
+	(10, 6)  | [10, 6] 
+	(14, 12) | [14, 12]
+	(14, 9)  | [14, 9] 
+	(10, 11) | [10, 11]
+	(6, 4)   | [6, 4]  
+	(12, 0)  | [12, 0] 
+	(9, 8)   | [9, 8]  
+	(4, 1)   | [4, 1]  
+	(0, 2)   | [0, 2]  
+	(0, 5)   | [0, 5]  
+	(8, 5)   | [8, 5]  
+	(1, 13)  | [1, 13] 
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 46.548% | Mean visited nodes: 70.786 | 2xMean expanded nodes: 4.137 | Mean max tree depth 6.462 | Number of Backtrackings: 1
+
+-------------------------------------------------- End Mapping V_15_E_15.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping mvt.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.26999999798834323 | Mapping Time: 17.998 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | add13 | t = 6 ]  [1  | add12 | t = 5 ]  [2  | add7  | t = 4 ]  [3  | add1  | t = 1 ] 
+	[4  | add4  | t = 3 ]  [5  | add8  | t = 5 ]  [6  | add3  | t = 2 ]  [7  | R     | t = 3 ] 
+	[8  | add9  | t = 7 ]  [9  | R     | t = 2 ]  [10 | add2  | t = 1 ]  [11 | add0  | t = 0 ] 
+	[12 | add6  | t = 4 ]  [13 | add10 | t = 6 ]  [14 | add5  | t = 5 ]  [15 | add11 | t = 4 ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(11, 3)  | [11, 3]   
+	(11, 10) | [11, 10]  
+	(3, 6)   | [3, 6]    
+	(10, 4)  | [10, 9, 4]
+	(6, 15)  | [6, 7, 15]
+	(4, 12)  | [4, 12]   
+	(12, 14) | [12, 14]  
+	(15, 14) | [15, 14]  
+	(2, 5)   | [2, 5]    
+	(2, 1)   | [2, 1]    
+	(14, 13) | [14, 13]  
+	(5, 13)  | [5, 13]   
+	(1, 0)   | [1, 0]    
+	(13, 8)  | [13, 8]   
+	(0, 8)   | [0, 8]    
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: False.Mean visited rate: 33.066% | Mean visited nodes: 80.250 | 2xMean expanded nodes: 4.521 | Mean max tree depth 6.667 | Number of Backtrackings: 3
+
+-------------------------------------------------- End Mapping mvt.dot --------------------------------------------------
+
+
+
+-------------------------------------------------- Mapping V_10_E_9.dot --------------------------------------------------
+
+Successful Mapping | Routing Penalty: -0.1599999964237213 | Mapping Time: 4.960 sec | Num Simulations: 100
+
+Placement and Timing:
+[PE | Placed DFG node or routing PE (R) | Scheduled Time]
+
+	[0  | -1   | t = -1 ]  [1  | -1   | t = -1 ]  [2  | -1   | t = -1 ]  [3  | add9 | t = 2  ] 
+	[4  | add7 | t = 4  ]  [5  | add2 | t = 5  ]  [6  | add6 | t = 2  ]  [7  | R    | t = 3  ] 
+	[8  | add3 | t = 5  ]  [9  | add8 | t = 3  ]  [10 | add1 | t = 0  ]  [11 | add4 | t = 1  ] 
+	[12 | add5 | t = 4  ]  [13 | -1   | t = -1 ]  [14 | -1   | t = -1 ]  [15 | add0 | t = 2  ] 
+
+Routing:
+(Source PE, Destination PE) | Routing path passing through PEs: [Source PE, PE_x, ..., PE_y,Destination PE]
+
+	(10, 11) | [10, 11] 
+	(11, 6)  | [11, 6]  
+	(11, 3)  | [11, 3]  
+	(11, 15) | [11, 15] 
+	(6, 9)   | [6, 9]   
+	(3, 4)   | [3, 7, 4]
+	(9, 12)  | [9, 12]  
+	(4, 5)   | [4, 5]   
+	(4, 8)   | [4, 8]   
+
+Here, the MCTS results are obtained by mapping using the last weights from finetune, just for comparison with zero shot results.
+MCTS results: Succesfull Mapping: True.Mean visited rate: 11.079% | Mean visited nodes: 76.000 | 2xMean expanded nodes: 9.013 | Mean max tree depth 10.000 | Number of Backtrackings: 0
+
+-------------------------------------------------- End Mapping V_10_E_9.dot --------------------------------------------------
+
+
+

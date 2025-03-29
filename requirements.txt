@@ -1,0 +1,11 @@
+pytest
+pympler
+seaborn
+ray
+torch
+networkx
+torch_geometric
+tensorboard
+pydot
+graphviz
+pygraphviz

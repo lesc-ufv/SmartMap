@@ -1,0 +1,40 @@
+digraph G {
+add0[opcode=add][level=2];
+const1[opcode=const][data=220][level=2];
+load2[opcode=load][name=a][level=3];
+mul3[opcode=mul][level=3];
+const4[opcode=const][data=10][level=3];
+add5[opcode=add][level=1];
+const6[opcode=const][data=1][level=1];
+add7[opcode=add][level=2];
+const8[opcode=const][data=221][level=2];
+load9[opcode=load][name=a][level=3];
+mul10[opcode=mul][level=3];
+const11[opcode=const][data=20][level=3];
+add12[opcode=add][level=4];
+add13[opcode=add][level=2];
+const14[opcode=const][data=220][level=2];
+store15[opcode=store][name=b][level=4];
+add16[opcode=add][level=3];
+const17[opcode=const][data=0][level=3];
+load2->mul3[operand=0][size=32]; //a->mul
+mul3->add12[operand=1][size=32]; //mul->add
+add5->add0[operand=1][size=32]; //add->gep_add_sgh
+add5->add5[operand=0][size=32]; //add->add
+add5->add7[operand=1][size=32]; //add->gep_add_sgh
+add5->add13[operand=1][size=32]; //add->gep_add_sgh
+load9->mul10[operand=0][size=32]; //a->mul
+mul10->add12[operand=0][size=32]; //mul->add
+add12->store15[operand=0][size=32]; //add->b
+const1->add0[operand=0][size=32]; //base->gep_add_sgh
+add0->load2[operand=0][size=32]; //gep_add_sgh->a
+const4->mul3[operand=1][size=32]; //10->mul
+const6->add5[operand=1][size=32]; //1->add
+const8->add7[operand=0][size=32]; //221->gep_add_sgh
+add7->load9[operand=0][size=32]; //gep_add_sgh->a
+const11->mul10[operand=1][size=32]; //20->mul
+const14->add13[operand=0][size=32]; //base->gep_add_sgh
+add13->add16[operand=0][size=32]; //gep_add_sgh->b
+const17->add16[operand=1][size=32];//0->add16
+add16->store15[operand=1][size=32]; //gep_add_sgh->b
+}
